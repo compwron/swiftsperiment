@@ -2,8 +2,6 @@
 //  ModelController.swift
 //  test1
 //
-//  Created by lgoldste on 6/19/14.
-//  Copyright (c) 2014 lgoldste. All rights reserved.
 //
 
 import UIKit

@@ -14,6 +14,7 @@
 		CC0AB8DB19539D7E0092A05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0AB8D919539D7E0092A05B /* Main.storyboard */; };
 		CC0AB8DD19539D7E0092A05B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0AB8DC19539D7E0092A05B /* Images.xcassets */; };
 		CC0AB8E919539D7E0092A05B /* test1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0AB8E819539D7E0092A05B /* test1Tests.swift */; };
+		CC0AB8F319539DB70092A05B /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0AB8F219539DB70092A05B /* Foo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		CC0AB8E219539D7E0092A05B /* test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0AB8E719539D7E0092A05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0AB8E819539D7E0092A05B /* test1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1Tests.swift; sourceTree = "<group>"; };
+		CC0AB8F219539DB70092A05B /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				CC0AB8D919539D7E0092A05B /* Main.storyboard */,
 				CC0AB8DC19539D7E0092A05B /* Images.xcassets */,
 				CC0AB8CF19539D7E0092A05B /* Supporting Files */,
+				CC0AB8F219539DB70092A05B /* Foo.swift */,
 			);
 			path = test1;
 			sourceTree = "<group>";
@@ -160,7 +163,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = lgoldste;
+				ORGANIZATIONNAME = foo;
 				TargetAttributes = {
 					CC0AB8CB19539D7E0092A05B = {
 						CreatedOnToolsVersion = 6.0;
@@ -216,6 +219,7 @@
 			files = (
 				CC0AB8D419539D7E0092A05B /* RootViewController.swift in Sources */,
 				CC0AB8D819539D7E0092A05B /* ModelController.swift in Sources */,
+				CC0AB8F319539DB70092A05B /* Foo.swift in Sources */,
 				CC0AB8D619539D7E0092A05B /* DataViewController.swift in Sources */,
 				CC0AB8D219539D7E0092A05B /* AppDelegate.swift in Sources */,
 			);
